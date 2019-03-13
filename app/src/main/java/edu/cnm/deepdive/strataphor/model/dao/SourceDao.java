@@ -12,7 +12,7 @@ import java.util.List;
 public interface SourceDao {
 
   @Insert
-  long insert(Source source);
+  long insert(Source source); // id that is auto-generated
 
   @Insert
   List<Long> insert(Source... sources);
